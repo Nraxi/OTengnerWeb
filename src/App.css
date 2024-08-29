@@ -1280,7 +1280,7 @@ h2 {
   .info-content {
     grid-template-columns: 40% 60%;
     position: relative;
-    margin-top: -76%;
+    margin-top: -80%;
 
     /* Change to a single column on mobile screens */
   }
@@ -1295,7 +1295,7 @@ h2 {
   }
 
   .about-content {
-    margin-top: -78%;
+    margin-top: -45%;
   }
 
   .about-content-vid {
@@ -1303,7 +1303,7 @@ h2 {
     padding: 20px;
     background-color: #e9eff3;
 
-    margin-bottom: -120px;
+    margin-bottom: -19px;
 
 
   }
