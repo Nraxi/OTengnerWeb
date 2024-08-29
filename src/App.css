@@ -7,6 +7,7 @@
 body {
   width: 100%;
   margin: 0%;
+  background-color: #e9eff3;
 }
 
 
@@ -471,7 +472,7 @@ h2 {
     margin-top: 530%;
     margin-bottom: -10px;
     height: 200px;
-    background-color: #1240e5;
+    background-color: #D1FAFF;
   }
 
 
@@ -713,7 +714,7 @@ h2 {
     margin-top: 455%;
     margin-bottom: -10px;
     height: 200px;
-    background-color: #1240e5;
+    background-color: #D1FAFF;
   }
 }
 
@@ -745,7 +746,7 @@ h2 {
     margin-top: 420%;
     margin-bottom: -10px;
     height: 200px;
-    background-color: #1240e5;
+    background-color: #D1FAFF;
   }
 
   .sticky-nav.scrolled ul {
@@ -763,7 +764,7 @@ h2 {
 }
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 784px) {
   #about {
     height: 350px;
     margin-top: 150px;
@@ -815,7 +816,7 @@ h2 {
     margin-top: 182%;
     margin-bottom: -10px;
     height: 200px;
-    background-color: #1240e5;
+    background-color: #D1FAFF;
   }
 
   #start h1 {
@@ -950,7 +951,7 @@ h2 {
     margin-top: 72%;
     margin-bottom: -10px;
     height: 200px;
-    background-color: #1240e5;
+    background-color: #D1FAFF;
   }
 
   .profiletwo-picture {
@@ -987,12 +988,172 @@ h2 {
   }
 }
 
+@media only screen and (min-width: 1026px) {
+  #contact {
+    margin-top: 26%;
+    margin-bottom: -10px;
+    height: 200px;
+    background-color: #D1FAFF;
+  }
+
+  .abouttwothree-block {
+    margin-bottom: 103px;
+    margin-top: 100px;
+  }
+
+  .info-content {
+    grid-template-columns: 40% 60%;
+    position: relative;
+    margin-top: -102%;
+
+    /* Change to a single column on mobile screens */
+  }
+
+  .infoinfo-block {
+    padding: 220px;
+    margin-left: -20px;
+  }
+
+  .ridertwo-block {
+    margin-top: 0px;
+  }
+
+  .about-content {
+    margin-top: -69%;
+  }
+
+  .about-content-vid {
+    grid-template-columns: 70% 30%;
+    padding: 20px;
+    background-color: #e9eff3;
+    margin-top: -155%;
+    margin-bottom: -120px;
+
+
+  }
+
+  .profiletwo-picture {
+    width: 700%;
+    height: 290%;
+    margin-top: -222px;
+    margin-left: -1550px;
+    object-fit: cover;
+    object-position: top;
+  }
+
+
+
+  #start h1 {
+    font-size: 140px;
+    color: #27bfa1;
+    margin-top: -150px;
+  }
+
+  .sticky-nav.scrolled {
+    width: 10%;
+    left: 84%;
+  }
+
+  .sticky-nav.scrolled ul {
+    flex-direction: row;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px;
+  }
+
+  .sticky-nav.scrolled:hover {
+    width: 30%;
+    background-color: #ffffff;
+    /* Yellow color on hover */
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #contact {
+    margin-top: 26%;
+    margin-bottom: -10px;
+    height: 200px;
+    background-color: #D1FAFF;
+  }
+
+  .abouttwothree-block {
+    margin-bottom: 103px;
+    margin-top: 100px;
+  }
+
+  .info-content {
+    grid-template-columns: 40% 60%;
+    position: relative;
+    margin-top: -102%;
+
+    /* Change to a single column on mobile screens */
+  }
+
+  .infoinfo-block {
+    padding: 220px;
+    margin-left: -20px;
+  }
+
+  .ridertwo-block {
+    margin-top: 0px;
+  }
+
+  .about-content {
+    margin-top: -73%;
+  }
+
+  .about-content-vid {
+    grid-template-columns: 70% 30%;
+    padding: 20px;
+    background-color: #e9eff3;
+    margin-top: -155%;
+    margin-bottom: -120px;
+
+
+  }
+
+  .profiletwo-picture {
+    width: 700%;
+    height: 290%;
+    margin-top: -222px;
+    margin-left: -1550px;
+    object-fit: cover;
+    object-position: top;
+  }
+
+
+
+  #start h1 {
+    font-size: 140px;
+    color: #27bfa1;
+    margin-top: -150px;
+  }
+
+  .sticky-nav.scrolled {
+    width: 10%;
+    left: 84%;
+  }
+
+  .sticky-nav.scrolled ul {
+    flex-direction: row;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px;
+  }
+
+  .sticky-nav.scrolled:hover {
+    width: 30%;
+    background-color: #ffffff;
+    /* Yellow color on hover */
+  }
+}
+
 @media only screen and (min-width: 1440px) {
   #contact {
     margin-top: 26%;
     margin-bottom: -10px;
     height: 200px;
-    background-color: #1240e5;
+    background-color: #D1FAFF;
   }
 
   .abouttwothree-block {
@@ -1067,12 +1228,93 @@ h2 {
   }
 }
 
+
+@media only screen and (min-width: 1690px) {
+  #contact {
+    margin-top: 26%;
+    margin-bottom: -10px;
+    height: 200px;
+    background-color: #D1FAFF;
+  }
+
+  .abouttwothree-block {
+    margin-bottom: 103px;
+    margin-top: 100px;
+  }
+
+  .info-content {
+    grid-template-columns: 40% 60%;
+    position: relative;
+    margin-top: -102%;
+
+    /* Change to a single column on mobile screens */
+  }
+
+  .infoinfo-block {
+    padding: 220px;
+    margin-left: -20px;
+  }
+
+  .ridertwo-block {
+    margin-top: 0px;
+  }
+
+  .about-content {
+    margin-top: -78%;
+  }
+
+  .about-content-vid {
+    grid-template-columns: 70% 30%;
+    padding: 20px;
+    background-color: #e9eff3;
+
+    margin-bottom: -120px;
+
+
+  }
+
+  .profiletwo-picture {
+    width: 700%;
+    height: 290%;
+    margin-top: -222px;
+    margin-left: -1550px;
+    object-fit: cover;
+    object-position: top;
+  }
+
+
+
+  #start h1 {
+    font-size: 140px;
+    color: #27bfa1;
+    margin-top: -150px;
+  }
+
+  .sticky-nav.scrolled {
+    width: 10%;
+    left: 84%;
+  }
+
+  .sticky-nav.scrolled ul {
+    flex-direction: row;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px;
+  }
+
+  .sticky-nav.scrolled:hover {
+    width: 30%;
+    background-color: #ffffff;
+    /* Yellow color on hover */
+  }
+}
+
 @media only screen and (min-width: 1920px) {
   #contact {
     margin-top: 20%;
     margin-bottom: -10px;
     height: 200px;
-    background-color: #1240e5;
+    background-color: #D1FAFF;
   }
 
   .sticky-nav.scrolled {
@@ -1101,8 +1343,36 @@ h2 {
   }
 
   .about-content-vid {
-    margin-top: -120%;
+    margin-top: 225%;
   }
+}
+
+
+
+
+@media only screen and (min-width: 2426px) {
+  .info-content {
+    margin-top: -58%;
+  }
+
+  .about-content {
+    margin-top: -1060px;
+  }
+}
+
+
+
+@media only screen and (min-width: 2500px) {
+  .info-content {
+    margin-top: -58%;
+  }
+
+  .about-content {
+    margin-top: -1100px;
+
+  }
+
+
 }
 
 @media only screen and (min-width: 2560px) {
@@ -1110,7 +1380,7 @@ h2 {
     margin-top: 15%;
     margin-bottom: -10px;
     height: 200px;
-    background-color: #1240e5;
+    background-color: #D1FAFF;
   }
 
   .sticky-nav.scrolled {
