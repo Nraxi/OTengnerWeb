@@ -108,7 +108,7 @@ const HomePage = () => (
               <p>Name: Olle Tengnér</p>
               <p>Age: 34</p>
               <p>From: Stockholm,Sweden</p>
-              <p>Family: yes, a daughter</p>
+              <p></p>
             </div>
           </div>
         </div>
