@@ -1,0 +1,99 @@
+.infotwo-block h2 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: #17A398;
+}
+
+.MyStackGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* Tre kolumner med lika bredd */
+  gap: 20px;
+  /* Mellanrum mellan kolumner */
+  padding: 20px;
+  /* Padding runt griden */
+  margin: 0px auto;
+
+  /* Centrerar griden horisontellt */
+  max-width: 1200px;
+  /* Begränsar gridens maxbredd */
+  box-sizing: border-box;
+  /* Inkluderar padding och border i elementets totala storlek */
+}
+
+.MyStackGrid>div {
+  background-color: #ffffff;
+  /* Vit bakgrund för varje ruta */
+  padding: 20px;
+
+  /* Inkluderar padding och border i elementets totala storlek */
+  display: flex;
+  /* Gör rutan till en flex-container */
+  flex-direction: column;
+  /* Lägger ut innehållet vertikalt */
+  justify-content: space-between;
+  /* Fördelar utrymmet jämnt mellan texten och eventuellt annat innehåll */
+  height: 550px;
+
+  /* Sätter en minimal höjd för varje ruta */
+}
+
+.MyStackGrid h4 {
+  font-size: 15px;
+  margin-top: 0px;
+  color: #000000;
+  text-align: center;
+  /* Centrerar text i rubriker */
+}
+
+.MyStackGrid ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+  font-size: 15px;
+  /* Gör så att listan tar upp det kvarvarande utrymmet */
+}
+
+.MyStackGrid li {
+  font-size: 14px;
+  padding: 1%;
+  margin-bottom: 0px;
+  color: #000000;
+}
+
+.MyStackGrid li::before {
+  content: "• ";
+  color: #17A398;
+  /* Blå färg för punkt */
+}
+
+/* Anpassningar för mindre skärmar */
+@media (max-width: 768px) {
+  .MyStackGrid {
+    grid-template-columns: 1fr;
+    /* En kolumn på mindre skärmar */
+    padding: 10px;
+    /* Justera padding för mindre skärmar */
+  }
+}
+
+/* Anpassningar för medelstora skärmar */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .MyStackGrid {
+    grid-template-columns: repeat(2, 1fr);
+    /* Två kolumner på medelstora skärmar */
+    padding: 10px;
+  }
+}
+
+/* För säkerhets skull: Se till att det inte blir överlapp */
+.section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Centrerar innehållet horisontellt */
+  justify-content: center;
+
+  /* Förhindrar att innehållet i griden överlappar andra element */
+}

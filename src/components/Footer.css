@@ -1,0 +1,39 @@
+/* Footer.css */
+footer {
+  background-color: #6A8EAE;
+  color: #fff;
+  margin-top: 30px;
+  text-align: center;
+  padding: 2em;
+  width: 101.4%;
+
+}
+
+#footer {
+  background-color: #D1FAFF;
+
+  padding: 1em;
+  height: 100px;
+  bottom: 0px;
+  margin-top: 10px;
+}
+
+#footer p {
+  margin-top: 90px;
+}
+
+@media (min-width: 300px) {
+  footer {
+    position: relative;
+    top: 0%;
+    margin-top: -2px;
+    padding: 0%;
+    width: 110.4%;
+  }
+}
+
+@media (min-width: 320px) {
+  footer {
+    width: 101.4%;
+  }
+}
