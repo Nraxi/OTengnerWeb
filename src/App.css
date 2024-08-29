@@ -466,10 +466,7 @@ h2 {
     margin-top: 5px;
   }
 
-  .kaPA {
-    display: none;
-    /* This will zoom in on the left side */
-  }
+
 
   #contact {
     margin-top: 530%;
@@ -693,6 +690,11 @@ h2 {
     margin: 7px;
     /* Adjust the margin as needed */
   }
+
+  .kaPA {
+    display: none;
+    /* This will zoom in on the left side */
+  }
 }
 
 @media (min-width: 375px) {
@@ -764,10 +766,31 @@ h2 {
     background-color: #ffffff;
     /* Blue color on hover */
   }
+
+  .kaPA {
+    display: none;
+    /* This will zoom in on the left side */
+  }
+
 }
 
+@media only screen and (min-width: 737px) {
+  #contact {
+    margin-top: 260%;
+  }
+}
 
 @media only screen and (min-width: 784px) {
+  #contact {
+    margin-top: 260%;
+  }
+
+
+  .kaPA {
+    display: none;
+    /* This will zoom in on the left side */
+  }
+
   #about {
     height: 350px;
     margin-top: 150px;
@@ -816,7 +839,7 @@ h2 {
   }
 
   #contact {
-    margin-top: 182%;
+
     margin-bottom: -10px;
     height: 200px;
     background-color: #D1FAFF;
@@ -989,11 +1012,14 @@ h2 {
     background-color: #ffffff;
     /* Yellow color on hover */
   }
+
 }
+
+
 
 @media only screen and (min-width: 1026px) {
   #contact {
-    margin-top: 26%;
+    margin-top: 50%;
     margin-bottom: -10px;
     height: 200px;
     background-color: #D1FAFF;
@@ -1071,9 +1097,15 @@ h2 {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1172px) {
   #contact {
-    margin-top: 26%;
+    margin-top: 55%;
+  }
+}
+
+@media only screen and (min-width: 1240px) {
+  #contact {
+    margin-top: 50%;
     margin-bottom: -10px;
     height: 200px;
     background-color: #D1FAFF;
