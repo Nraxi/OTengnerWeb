@@ -12,6 +12,7 @@ body {
 
 
 
+
 .sticky-nav {
   position: fixed;
   top: 0;
@@ -41,7 +42,7 @@ body {
 
 .sticky-nav.scrolled ul a {
   margin: 0px;
-  font-size: 7px;
+
 
 }
 
@@ -656,7 +657,6 @@ h2 {
   }
 
 
-
   .sticky-nav ul {
     margin-left: 30px;
     margin-top: 25px;
@@ -672,7 +672,7 @@ h2 {
 
   /* Hovered  vita */
   .sticky-nav.scrolled:hover {
-    width: 90%;
+    width: 100%;
     background-color: #ffffff;
 
 
@@ -681,8 +681,8 @@ h2 {
 
   .sticky-nav.scrolled ul {
     flex-direction: row;
-    font-size: 15px;
-    margin: 20px;
+    font-size: 9px;
+    ;
   }
 
 
@@ -743,9 +743,7 @@ h2 {
     object-position: top;
   }
 
-  .sticky-nav.scrolled {
-    width: 40%;
-  }
+
 
   #contact {
     margin-top: 420%;
@@ -756,7 +754,7 @@ h2 {
 
   .sticky-nav.scrolled ul {
     flex-direction: row;
-    font-size: 15px;
+    font-size: 12px;
     margin: 20px;
   }
 
@@ -785,6 +783,13 @@ h2 {
     margin-top: 260%;
   }
 
+  .sticky-nav ul {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
 
   .kaPA {
     display: none;
@@ -901,31 +906,6 @@ h2 {
     /* Reset the order to 1 for smaller screens */
   }
 
-  .sticky-nav ul {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-  }
-
-  .sticky-nav.scrolled ul {
-    flex-direction: row;
-    font-size: 15px;
-    font-weight: bold;
-    margin: 20px;
-  }
-
-  .sticky-nav.scrolled {
-    left: 70%;
-    width: 20%;
-  }
-
-  .sticky-nav.scrolled:hover {
-    width: 55%;
-    background-color: #ffffff;
-    /* Yellow color on hover */
-  }
 }
 
 
@@ -995,23 +975,7 @@ h2 {
     margin-top: 0px;
   }
 
-  .sticky-nav.scrolled ul {
-    flex-direction: row;
-    font-size: 15px;
-    font-weight: bold;
-    margin: 20px;
-  }
 
-  .sticky-nav.scrolled {
-    left: 76%;
-    width: 10%;
-  }
-
-  .sticky-nav.scrolled:hover {
-    width: 45%;
-    background-color: #ffffff;
-    /* Yellow color on hover */
-  }
 
 }
 
@@ -1078,23 +1042,7 @@ h2 {
     margin-top: -150px;
   }
 
-  .sticky-nav.scrolled {
-    width: 10%;
-    left: 84%;
-  }
 
-  .sticky-nav.scrolled ul {
-    flex-direction: row;
-    font-size: 15px;
-    font-weight: bold;
-    margin: 20px;
-  }
-
-  .sticky-nav.scrolled:hover {
-    width: 30%;
-    background-color: #ffffff;
-    /* Yellow color on hover */
-  }
 }
 
 @media only screen and (min-width: 1172px) {
@@ -1164,26 +1112,14 @@ h2 {
     margin-top: -150px;
   }
 
-  .sticky-nav.scrolled {
-    width: 10%;
-    left: 84%;
-  }
 
-  .sticky-nav.scrolled ul {
-    flex-direction: row;
-    font-size: 15px;
-    font-weight: bold;
-    margin: 20px;
-  }
-
-  .sticky-nav.scrolled:hover {
-    width: 30%;
-    background-color: #ffffff;
-    /* Yellow color on hover */
-  }
 }
 
 @media only screen and (min-width: 1440px) {
+  .sticky-nav.scrolled:hover {
+    width: 40%;
+  }
+
   #contact {
     margin-top: 26%;
     margin-bottom: -10px;
@@ -1244,23 +1180,7 @@ h2 {
     margin-top: -150px;
   }
 
-  .sticky-nav.scrolled {
-    width: 10%;
-    left: 84%;
-  }
 
-  .sticky-nav.scrolled ul {
-    flex-direction: row;
-    font-size: 15px;
-    font-weight: bold;
-    margin: 20px;
-  }
-
-  .sticky-nav.scrolled:hover {
-    width: 30%;
-    background-color: #ffffff;
-    /* Yellow color on hover */
-  }
 }
 
 
@@ -1325,23 +1245,6 @@ h2 {
     margin-top: -150px;
   }
 
-  .sticky-nav.scrolled {
-    width: 10%;
-    left: 84%;
-  }
-
-  .sticky-nav.scrolled ul {
-    flex-direction: row;
-    font-size: 15px;
-    font-weight: bold;
-    margin: 20px;
-  }
-
-  .sticky-nav.scrolled:hover {
-    width: 30%;
-    background-color: #ffffff;
-    /* Yellow color on hover */
-  }
 }
 
 @media only screen and (min-width: 1920px) {
@@ -1350,17 +1253,6 @@ h2 {
     margin-bottom: -10px;
     height: 200px;
     background-color: #D1FAFF;
-  }
-
-  .sticky-nav.scrolled {
-    left: 9%;
-    width: 10%;
-  }
-
-  .sticky-nav.scrolled:hover {
-    width: 15%;
-    background-color: #ffffff;
-    /* Yellow color on hover */
   }
 
   .info-content {
@@ -1430,16 +1322,6 @@ h2 {
     background-color: #D1FAFF;
   }
 
-  .sticky-nav.scrolled {
-    left: 9%;
-    width: 10%;
-  }
-
-  .sticky-nav.scrolled:hover {
-    width: 15%;
-    background-color: #ffffff;
-    /* Yellow color on hover */
-  }
 
   .info-content {
     margin-top: -55%;
