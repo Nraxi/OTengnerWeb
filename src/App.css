@@ -981,7 +981,7 @@ h2 {
     grid-template-columns: 30% 70%;
     position: relative;
     margin-top: -85%;
-    width: 100%;
+    width: 104%;
     overflow: hidden;
     /* Change to a single column on mobile screens */
   }
