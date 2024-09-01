@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/OTengnerWeb/static/css/main.3c842bc2.css",
-    "main.js": "/OTengnerWeb/static/js/main.1734f8cd.js",
+    "main.js": "/OTengnerWeb/static/js/main.c891347e.js",
     "static/js/453.e4d99c58.chunk.js": "/OTengnerWeb/static/js/453.e4d99c58.chunk.js",
     "static/media/s2.png": "/OTengnerWeb/static/media/s2.09aa3d5c9349ab9e231f.png",
     "static/media/s3.png": "/OTengnerWeb/static/media/s3.29213d07c79b2027b300.png",
@@ -28,11 +28,11 @@
     "static/media/fa-regular-400.woff2": "/OTengnerWeb/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
     "index.html": "/OTengnerWeb/index.html",
     "main.3c842bc2.css.map": "/OTengnerWeb/static/css/main.3c842bc2.css.map",
-    "main.1734f8cd.js.map": "/OTengnerWeb/static/js/main.1734f8cd.js.map",
+    "main.c891347e.js.map": "/OTengnerWeb/static/js/main.c891347e.js.map",
     "453.e4d99c58.chunk.js.map": "/OTengnerWeb/static/js/453.e4d99c58.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3c842bc2.css",
-    "static/js/main.1734f8cd.js"
+    "static/js/main.c891347e.js"
   ]
 }

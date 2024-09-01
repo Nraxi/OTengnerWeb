@@ -7,7 +7,7 @@ function SocialMedia() {
   return (
     <div className="social-media-container">
       {/* Home icon and link */}
-      <a href="/" target="_blank" rel="noopener noreferrer">
+      <a href="https://nraxi.github.io/OTengnerWeb/" target="_blank" rel="noopener noreferrer">
         <i className="fas fa-home social-icon"></i>
       </a>
       {/* Instagram ikon och länk */}
