@@ -12,12 +12,11 @@ body {
 
 
 
-
 .sticky-nav {
   position: fixed;
   top: 0;
   right: 0;
-  width: 70%;
+  width: 100%;
   z-index: 1000;
 }
 
@@ -42,8 +41,6 @@ body {
 
 .sticky-nav.scrolled ul a {
   margin: 0px;
-
-
 }
 
 .menu-text {
@@ -56,10 +53,11 @@ body {
 }
 
 .sticky-nav.scrolled {
-  background-color: #17A398;
+  background-color: rgb(150, 150, 150);
   border-radius: 20px;
   position: fixed;
-
+  height: 50px;
+  width: 10%;
   margin-top: 10px;
   left: 50%;
   right: 0;
@@ -97,7 +95,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 50px;
-  font-size: 5px;
 }
 
 .sticky-nav.scrolled li {
@@ -105,7 +102,6 @@ body {
 }
 
 .sticky-nav a {
-
   text-decoration: none;
   color: #931f1f;
   font-weight: bold;
@@ -131,7 +127,6 @@ body {
 .sticky-nav:hover .scrolled .text-container {
   opacity: 1;
 }
-
 
 /* Global styles */
 .content-container {
@@ -673,7 +668,7 @@ h2 {
 
   /* Hovered  vita */
   .sticky-nav.scrolled:hover {
-    width: 50%;
+    width: 100%;
     background-color: #ffffff;
 
 
@@ -699,6 +694,22 @@ h2 {
 }
 
 @media (min-width: 375px) {
+
+  .sticky-nav ul {
+    margin-left: 30px;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Skapa två kolumner med lika stor bredd */
+    gap: 5px;
+  }
+
+  .sticky-nav.scrolled ul {
+    flex-direction: row;
+    font-size: 12px;
+    margin: 20px;
+  }
+
 
   .infotwo-block {
     height: auto;
@@ -760,7 +771,7 @@ h2 {
   }
 
   .sticky-nav.scrolled:hover {
-    width: 70%;
+    width: 100%;
     padding: 2px;
     background-color: #ffffff;
     /* Blue color on hover */
@@ -774,6 +785,22 @@ h2 {
 }
 
 @media only screen and (min-width: 737px) {
+  .sticky-nav.scrolled:hover {
+    width: 70%;
+    padding: 2px;
+    background-color: #ffffff;
+    /* Blue color on hover */
+  }
+
+  .sticky-nav ul {
+    margin-left: 184px;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Skapa två kolumner med lika stor bredd */
+    gap: 5px;
+  }
+
   #contact {
     margin-top: 260%;
   }
@@ -793,6 +820,7 @@ h2 {
   }
 
   .sticky-nav ul {
+    margin-left: 0px;
     margin-top: 20px;
     display: flex;
     flex-direction: row;
@@ -920,6 +948,13 @@ h2 {
 
 
 @media only screen and (min-width: 1024px) {
+  .sticky-nav.scrolled:hover {
+    width: 50%;
+    padding: 2px;
+    background-color: #ffffff;
+    /* Blue color on hover */
+  }
+
   .ridertwo-block {
     margin-top: 0px;
   }
