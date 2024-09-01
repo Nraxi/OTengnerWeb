@@ -211,10 +211,7 @@ body {
   overflow: hidden;
 }
 
-.snowboardsKapa {
-  height: 140%;
 
-}
 
 
 .infotwo-block {
@@ -1178,6 +1175,19 @@ h2 {
 }
 
 @media only screen and (min-width: 1440px) {
+
+  .kaPA {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* This will zoom in on the left side */
+  }
+
+  .kaPA {
+    object-position: 52% 0px;
+  }
+
   .sticky-nav.scrolled:hover {
     width: 30%;
   }
@@ -1196,13 +1206,15 @@ h2 {
 
   .info-content {
     grid-template-columns: 40% 60%;
-    position: relative;
+
     margin-top: -102%;
+
 
     /* Change to a single column on mobile screens */
   }
 
   .infoinfo-block {
+    overflow: hidden;
     padding: 220px;
     margin-left: -20px;
   }
