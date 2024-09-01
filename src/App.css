@@ -963,8 +963,11 @@ h2 {
     grid-template-columns: 30% 70%;
     position: relative;
     margin-top: -85%;
-    width: 104%;
+    width: 100%;
+    margin-left: -20px;
+    margin-right: -20px;
     overflow: hidden;
+    background-color: #9BD1E5;
     /* Change to a single column on mobile screens */
   }
 
