@@ -273,12 +273,10 @@ const HomePage = () => (
                 Link</a></p>
               <p>Old CV/Projects: <a href='https://nraxi.github.io/nraxi-home/'>
                 Link</a></p>
-              <p>SCRUMS/Trello boards: <a href=''>
-                Link</a> </p>
+              <p>SCRUMS/Trello boards: see picture --> </p>
               <p>Examen: <a href='https://github.com/Nraxi/examen'>
                 Link</a></p>
-              <p>CMS: Ongoing Project <a href='/'>
-                Link</a></p>
+              <p>CMS: Ongoing Project, Link will come soon</p>
 
             </div>
           </div>
