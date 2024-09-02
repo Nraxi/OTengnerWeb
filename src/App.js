@@ -108,7 +108,7 @@ const HomePage = () => (
               <p>Name: Olle Tengnér</p>
               <p>Age: 34</p>
               <p>From: Stockholm,Sweden</p>
-              <p></p>
+              <p>Phone Number: +46760 169 497</p>
             </div>
           </div>
         </div>
