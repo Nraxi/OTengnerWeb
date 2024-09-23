@@ -392,7 +392,8 @@ h2 {
 }
 
 #riderone {
-  height: 800px;
+  height: 950px;
+  margin-bottom: 20px;
 }
 
 #ridertwo {
@@ -505,7 +506,7 @@ h2 {
   .info-content {
     grid-template-columns: 100%;
     position: relative;
-    top: 122%;
+    top: 98%;
     padding: 20px;
     /* Change to a single column on mobile screens */
   }
@@ -962,7 +963,7 @@ h2 {
   .info-content {
     grid-template-columns: 30% 70%;
     position: relative;
-    margin-top: -85%;
+    margin-top: -80%;
     width: 100%;
     margin-left: -20px;
     margin-right: -20px;
@@ -978,7 +979,7 @@ h2 {
   .infotwo-block {
     margin-top: -22px;
     height: auto;
-    margin-bottom: 30px;
+    
   }
 
   .aboutone-block {
@@ -1197,8 +1198,8 @@ h2 {
 
   .info-content {
     grid-template-columns: 40% 60%;
-
-    margin-top: -102%;
+top: 122%;
+    margin-top: -99%;
 
 
     /* Change to a single column on mobile screens */
@@ -1261,7 +1262,7 @@ h2 {
   .info-content {
     grid-template-columns: 40% 60%;
     position: relative;
-    margin-top: -80%;
+    margin-top: -83%;
 
     /* Change to a single column on mobile screens */
   }
@@ -1339,7 +1340,7 @@ h2 {
 
 @media only screen and (min-width: 2000px) {
   .info-content {
-    margin-top: -72%;
+    margin-top: -69%;
   }
 
   .about-content {
@@ -1353,7 +1354,7 @@ h2 {
 
 @media only screen and (min-width: 2145px) {
   .info-content {
-    margin-top: -70%;
+    margin-top: -66%;
   }
 
   .about-content {
@@ -1367,7 +1368,7 @@ h2 {
 
 @media only screen and (min-width: 2217px) {
   .info-content {
-    margin-top: -66%;
+    margin-top: -61%;
   }
 
   .about-content {
@@ -1381,7 +1382,7 @@ h2 {
 
 @media only screen and (min-width: 2361px) {
   .info-content {
-    margin-top: -63%;
+    margin-top: -58%;
   }
 
   .about-content {
@@ -1395,7 +1396,7 @@ h2 {
 
 @media only screen and (min-width: 2426px) {
   .info-content {
-    margin-top: -58%;
+    margin-top: -55%;
   }
 
   .about-content {
@@ -1411,7 +1412,7 @@ h2 {
 
 @media only screen and (min-width: 2500px) {
   .info-content {
-    margin-top: -58%;
+    margin-top: -52%;
   }
 
   .about-content {
