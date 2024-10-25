@@ -276,7 +276,8 @@ const HomePage = () => (
               <p>SCRUMS/Trello boards: see picture --> </p>
               <p>Examen: <a href='https://github.com/Nraxi/examen'>
                 Link</a></p>
-              <p>CMS: Ongoing Project, Link will come soon</p>
+              <p>Public CMS:  <a href='https://codemonkeyspubliccms.azurewebsites.net/'>Link:</a></p>
+              <p>Github project for:  <a href='https://github.com/Zocom-LIA/CmsCodeMonkeys'>Link: Public CMS</a></p>
 
             </div>
           </div>
