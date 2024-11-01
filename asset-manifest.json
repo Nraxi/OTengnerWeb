@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/OTengnerWeb/static/css/main.0f1b6efb.css",
+    "main.css": "/OTengnerWeb/static/css/main.0eb078ea.css",
     "main.js": "/OTengnerWeb/static/js/main.eaf58edb.js",
     "static/js/453.e4d99c58.chunk.js": "/OTengnerWeb/static/js/453.e4d99c58.chunk.js",
     "static/media/s2.png": "/OTengnerWeb/static/media/s2.09aa3d5c9349ab9e231f.png",
@@ -31,12 +31,12 @@
     "static/media/fa-regular-400.woff": "/OTengnerWeb/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff",
     "static/media/fa-regular-400.woff2": "/OTengnerWeb/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
     "index.html": "/OTengnerWeb/index.html",
-    "main.0f1b6efb.css.map": "/OTengnerWeb/static/css/main.0f1b6efb.css.map",
+    "main.0eb078ea.css.map": "/OTengnerWeb/static/css/main.0eb078ea.css.map",
     "main.eaf58edb.js.map": "/OTengnerWeb/static/js/main.eaf58edb.js.map",
     "453.e4d99c58.chunk.js.map": "/OTengnerWeb/static/js/453.e4d99c58.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f1b6efb.css",
+    "static/css/main.0eb078ea.css",
     "static/js/main.eaf58edb.js"
   ]
 }
