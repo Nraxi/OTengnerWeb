@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/OTengnerWeb/static/css/main.a6f51dcc.css",
+    "main.js": "/OTengnerWeb/static/js/main.eaf58edb.js",
+    "static/js/453.e4d99c58.chunk.js": "/OTengnerWeb/static/js/453.e4d99c58.chunk.js",
+    "static/media/s2.png": "/OTengnerWeb/static/media/s2.09aa3d5c9349ab9e231f.png",
+    "static/media/s3.png": "/OTengnerWeb/static/media/s3.29213d07c79b2027b300.png",
+    "static/media/code.png": "/OTengnerWeb/static/media/code.2dc83bdac3bb66315acc.png",
+    "static/media/s6.png": "/OTengnerWeb/static/media/s6.8292a82f53164d2a15ca.png",
+    "static/media/s4.png": "/OTengnerWeb/static/media/s4.4cb7723e7d946fb65c63.png",
+    "static/media/s1.png": "/OTengnerWeb/static/media/s1.d266a19d12f4eba78950.png",
+    "static/media/Snowboarding.ttf": "/OTengnerWeb/static/media/Snowboarding.86cc3b299a52ae36fcb0.ttf",
+    "static/media/s7.png": "/OTengnerWeb/static/media/s7.7fbba080c397ebb10796.png",
+    "static/media/fa-solid-900.svg": "/OTengnerWeb/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
+    "static/media/mountain.jpg": "/OTengnerWeb/static/media/mountain.06ceb5c422284f259770.jpg",
+    "static/media/fa-brands-400.svg": "/OTengnerWeb/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
+    "static/media/fa-solid-900.eot": "/OTengnerWeb/static/media/fa-solid-900.9bbb245e67a133f6e486.eot",
+    "static/media/fa-solid-900.ttf": "/OTengnerWeb/static/media/fa-solid-900.be9ee23c0c6390141475.ttf",
+    "static/media/educations.png": "/OTengnerWeb/static/media/educations.efe6b5d2482be3400242.png",
+    "static/media/profilepict.jpeg": "/OTengnerWeb/static/media/profilepict.51b5f50d4fe4245bbe5d.jpeg",
+    "static/media/fa-regular-400.svg": "/OTengnerWeb/static/media/fa-regular-400.4689f52cc96215721344.svg",
+    "static/media/fa-brands-400.eot": "/OTengnerWeb/static/media/fa-brands-400.23f19bb08961f37aaf69.eot",
+    "static/media/fa-brands-400.ttf": "/OTengnerWeb/static/media/fa-brands-400.527940b104eb2ea366c8.ttf",
+    "static/media/fa-solid-900.woff": "/OTengnerWeb/static/media/fa-solid-900.eeccf4f66002c6f2ba24.woff",
+    "static/media/fa-brands-400.woff": "/OTengnerWeb/static/media/fa-brands-400.2285773e6b4b172f07d9.woff",
+    "static/media/s5.png": "/OTengnerWeb/static/media/s5.60cdebc39097c20cc3d2.png",
+    "static/media/fa-solid-900.woff2": "/OTengnerWeb/static/media/fa-solid-900.1551f4f60c37af51121f.woff2",
+    "static/media/fa-brands-400.woff2": "/OTengnerWeb/static/media/fa-brands-400.d878b0a6a1144760244f.woff2",
+    "static/media/fa-regular-400.eot": "/OTengnerWeb/static/media/fa-regular-400.77206a6bb316fa0aded5.eot",
+    "static/media/fa-regular-400.ttf": "/OTengnerWeb/static/media/fa-regular-400.491974d108fe4002b2aa.ttf",
+    "static/media/fa-regular-400.woff": "/OTengnerWeb/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff",
+    "static/media/fa-regular-400.woff2": "/OTengnerWeb/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
+    "index.html": "/OTengnerWeb/index.html",
+    "main.a6f51dcc.css.map": "/OTengnerWeb/static/css/main.a6f51dcc.css.map",
+    "main.eaf58edb.js.map": "/OTengnerWeb/static/js/main.eaf58edb.js.map",
+    "453.e4d99c58.chunk.js.map": "/OTengnerWeb/static/js/453.e4d99c58.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6f51dcc.css",
+    "static/js/main.eaf58edb.js"
+  ]
+}
