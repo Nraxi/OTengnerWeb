@@ -1,0 +1,1457 @@
+/* App.css */
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  width: 100%;
+  margin: 0%;
+  background-color: #e9eff3;
+}
+
+
+
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.sticky-nav.at-top {
+  position: absolute;
+}
+
+.sticky-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* Add this line to ensure the ul is displayed as flex */
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.sticky-nav ul a {
+  margin: 20px;
+}
+
+.sticky-nav.scrolled ul a {
+  margin: 0px;
+}
+
+.menu-text {
+  display: none;
+}
+
+.sticky-nav.scrolled .menu-text {
+  display: inline-block;
+  /* Add other styling properties as needed */
+}
+
+.sticky-nav.scrolled {
+  background-color: rgb(150, 150, 150);
+  border-radius: 20px;
+  position: fixed;
+  height: 50px;
+  width: 10%;
+  margin-top: 10px;
+  left: 50%;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-50%) translateY(0);
+  overflow: hidden;
+  transition: background-color 0.8s ease-in-out;
+}
+
+.sticky-nav.scrolled:hover {
+  background-color: rgba(255, 255, 255, 1);
+  width: 20%;
+}
+
+.sticky-nav.scrolled:hover .menu-text {
+  display: none;
+}
+
+.sticky-nav.scrolled:hover .menu-text.active {
+  display: none;
+}
+
+.sticky-nav.scrolled:hover ul {
+  display: flex;
+}
+
+.sticky-nav.scrolled ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.sticky-nav.scrolled li {
+  margin: 20px;
+}
+
+.sticky-nav a {
+  text-decoration: none;
+  color: #931f1f;
+  font-weight: bold;
+}
+
+.sticky-nav.scrolled a {
+  color: #050505;
+}
+
+.menu-text {
+  color: rgb(11, 11, 11);
+  font-weight: bold;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+}
+
+.sticky-nav.scrolled .text-container {
+  opacity: 0;
+  transition: opacity 1.2s ease-in-out;
+}
+
+.sticky-nav.scrolled:hover .text-container,
+.sticky-nav:hover .scrolled .text-container {
+  opacity: 1;
+}
+
+/* Global styles */
+.content-container {
+  margin-top: 50px;
+  z-index: 2;
+}
+
+/* Styles for each section */
+.custom-section {
+  position: relative;
+  height: 900px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Slogan */
+.section-content {
+  color: #931f1f;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* ABOUT */
+.about-content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+  height: 220%;
+}
+
+.about-content-vid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+  height: 700px;
+}
+
+/* tidigare projekt. flik */
+.aboutone-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #27bfa1;
+  height: 480px;
+  color: #000000;
+  font-size: 15px;
+}
+
+.abouttwo-block {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #27bfa1;
+}
+
+/* Info */
+#info {
+  height: 450px;
+}
+
+.info-content {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  width: 100%;
+  height: auto;
+  /* Ensure the parent container has sufficient height */
+}
+
+.infoinfo-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  overflow: hidden;
+}
+
+
+
+
+.infotwo-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #9BD1E5;
+  text-align: center;
+}
+
+.infotwo-block h4 {
+  margin-top: 150px;
+  margin-bottom: 2px;
+}
+
+.woop {
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.woop-text a {
+  color: #dc3545;
+  text-decoration: none;
+}
+
+.woop-text a:hover {
+  text-decoration: underline;
+}
+
+.woop-text a:visited {
+  color: #dc3545;
+}
+
+
+/* Rider two */
+.riderone-content {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  width: 100%;
+  height: 100%;
+}
+
+.riderone-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9BD1E5;
+  color: #000000;
+  margin-top: 0px;
+}
+
+.RiderOneDiv {
+  margin-top: -5%;
+  font-size: 15px;
+}
+
+/* social media */
+
+.theh2 {
+  color: #000000;
+}
+
+
+h2 {
+  text-align: center;
+}
+
+.education-section {
+  margin-bottom: 30px;
+}
+
+
+.education-section h3 {
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.education-section p {
+  margin: 5px 0;
+}
+
+.education-section a {
+  color: #ee1313;
+  text-decoration: none;
+}
+
+.education-section a:hover {
+  text-decoration: underline;
+}
+
+.education-section ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.skills-section {
+  margin-top: 30px;
+}
+
+.skills-section h4 {
+  color: #ff0000;
+  margin-bottom: 10px;
+}
+
+.skills-section ul {
+  padding-left: 20px;
+}
+
+.rideronetwo-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #D1FAFF;
+  color: #050505;
+}
+
+/* Rider three */
+.ridertwo-content {
+  display: grid;
+
+  width: 100%;
+  height: 100%;
+}
+
+.ridertwo-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d1faff;
+  color: #e9eff3;
+  ;
+}
+
+/* ABOUT ME BLOCK */
+.ridertwotwo-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9BD1E5;
+  color: #000000;
+  font-size: 15px;
+}
+
+/* Styles for other sections */
+
+
+#start {
+  background-color: #d1faffc7;
+  height: 500px;
+}
+
+@font-face {
+  font-family: 'Snowboarding';
+  src: url('../fonts/Snowboarding/Snowboarding.ttf') format('truetype');
+  /* Add other formats and font properties as needed */
+}
+
+#start h1 {
+  color: rgb(165, 0, 0);
+  font-size: 110px;
+
+  font-family: 'Snowboarding', sans-serif;
+  margin-bottom: 10px;
+  margin-top: -200px;
+}
+
+#about {
+  height: 600px;
+  margin-top: 120px;
+}
+
+#abouttwo {
+  height: 500px;
+}
+
+#riderone {
+  height: 950px;
+  margin-bottom: 20px;
+}
+
+#ridertwo {
+  height: 400px;
+}
+
+
+.profile-picture-container {
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+/* Profile picture */
+.profile-picture {
+  width: 100%;
+  height: 300%;
+  margin-top: -110px;
+  object-fit: cover;
+  object-position: top right;
+  /* Anpassa positionen efter behov */
+}
+
+/* PROFILE PIC TWO */
+.profiletwo-picture-container {
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+/* Profile picture two */
+.profiletwo-picture {
+  width: 700%;
+  height: 290%;
+  margin-top: -272px;
+  margin-left: -1582px;
+  object-fit: cover;
+  object-position: top;
+
+  /* /* transform: scaleX(-1); */
+
+}
+
+.aboutonethree-block h1 {
+  text-align: center;
+}
+
+
+#contact {
+  height: 200px;
+  background-color: #D1FAFF;
+}
+
+
+@media (min-width: 300px) {
+  .infotwo-block {
+    height: auto;
+    margin-top: 80%;
+  }
+
+  .RiderOneDiv {
+    margin-top: 5px;
+  }
+
+
+
+  #contact {
+    margin-top: 530%;
+    margin-bottom: -10px;
+    height: 200px;
+    background-color: #D1FAFF;
+  }
+
+
+
+
+
+  .profiletwo-picture {
+    width: 700%;
+    height: 290%;
+    margin-top: -252px;
+    margin-left: -1430px;
+    object-fit: cover;
+    object-position: top;
+  }
+
+
+
+  #start {
+    margin-bottom: 100px;
+  }
+
+  #start h1 {
+    font-size: 60px;
+    color: #27bfa1;
+
+  }
+
+  #info {
+    height: 600px;
+  }
+
+  #ridertwo {
+    height: 800px;
+    margin-top: -279px;
+  }
+
+  .info-content {
+    grid-template-columns: 100%;
+    position: relative;
+    top: 98%;
+    padding: 20px;
+    /* Change to a single column on mobile screens */
+  }
+
+  .woop {
+    margin-top: 0px;
+    margin-bottom: 200px;
+  }
+
+  /* riderone */
+  .riderone-content {
+    grid-template-columns: 100%;
+
+  }
+
+  .rideronetwo-block {
+    order: 1;
+    /* Reset the order to 2 for smaller screens */
+  }
+
+  .riderone-block {
+    order: 2;
+    /* Reset the order to 1 for smaller screens */
+  }
+
+  /* RIDER TWO */
+  .ridertwo-content {
+    grid-template-columns: 100%;
+
+  }
+
+  .ridertwotwo-block {
+    order: 2;
+    /* Reset the order to 2 for smaller screens */
+  }
+
+  .ridertwo-block {
+    margin-top: 120px;
+    order: 1;
+    /* Reset the order to 1 for smaller screens */
+  }
+
+
+  /* About  */
+  .about-content {
+    position: relative;
+    top: 220%;
+    margin-bottom: 10px;
+    grid-template-columns: 100%;
+  }
+
+  .about-content-vid {
+    position: relative;
+    top: 250%;
+    grid-template-columns: 100%;
+  }
+
+
+
+
+  .aboutone-block {
+    order: 2;
+    margin-top: -210px;
+    margin-bottom: -124px;
+    /* Reset the order to 2 for smaller screens */
+  }
+
+  .abouttwo-block {
+    order: 1;
+
+    /* Reset the order to 1 for smaller screens */
+  }
+
+  .abouttwothree-block {
+    display: flex;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: #ffffff;
+
+    margin-bottom: 2px;
+  }
+
+
+
+  .aboutonethree-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9eff3;
+    color: #e9eff3;
+
+  }
+
+
+
+  .education-roler {
+    width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #9BD1E5;
+    margin: 2px;
+  }
+
+  .educations {
+    width: 100%;
+  }
+
+
+
+
+  .proffa {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+  }
+
+  .mountain-rolertwo {
+    width: 90%;
+    padding: 20px;
+
+    border-radius: 10px;
+    background-color: #000000;
+  }
+
+  .mountaintwo {
+    width: 100%;
+    padding: -10px;
+    margin-right: 20px;
+  }
+
+  /* MENUY gråa */
+  .sticky-nav.scrolled {
+    flex-direction: row;
+    width: 40%;
+    font-size: 15px;
+    height: 50px;
+    padding: 2px;
+  }
+
+
+  .sticky-nav ul {
+    margin-left: 30px;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Skapa två kolumner med lika stor bredd */
+    gap: 5px;
+  }
+
+  .sticky-nav.scrolled ul {
+    display: none;
+  }
+
+  /* Hovered  vita */
+  .sticky-nav.scrolled:hover {
+    width: 100%;
+    background-color: #ffffff;
+
+
+    /* Green color on hover */
+  }
+
+  .sticky-nav.scrolled ul {
+    flex-direction: row;
+    font-size: 9px;
+    ;
+  }
+
+
+  .sticky-nav.scrolled li {
+    margin: 7px;
+    /* Adjust the margin as needed */
+  }
+
+  .kaPA {
+    display: none;
+    /* This will zoom in on the left side */
+  }
+}
+
+@media (min-width: 375px) {
+
+  .sticky-nav ul {
+    margin-left: 30px;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Skapa två kolumner med lika stor bredd */
+    gap: 5px;
+  }
+
+  .sticky-nav.scrolled ul {
+    flex-direction: row;
+    font-size: 12px;
+    margin: 20px;
+  }
+
+
+  .infotwo-block {
+    height: auto;
+    margin-top: 57%;
+  }
+
+  .profiletwo-picture {
+    width: 700%;
+    height: 290%;
+    margin-top: -252px;
+    margin-left: -1550px;
+    object-fit: cover;
+    object-position: top;
+  }
+
+
+
+  #contact {
+    margin-top: 455%;
+    margin-bottom: -10px;
+    height: 200px;
+    background-color: #D1FAFF;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .infotwo-block {
+    height: auto;
+    margin-top: 42%;
+  }
+
+  .abouttwothree-block {
+    margin-top: 110px;
+    margin-bottom: 20px;
+  }
+
+  .profiletwo-picture {
+    width: 700%;
+    height: 290%;
+    margin-top: -252px;
+    margin-left: -1550px;
+    object-fit: cover;
+    object-position: top;
+  }
+
+
+
+  #contact {
+    margin-top: 420%;
+    margin-bottom: -10px;
+    height: 200px;
+    background-color: #D1FAFF;
+  }
+
+  .sticky-nav.scrolled ul {
+    flex-direction: row;
+    font-size: 12px;
+    margin: 20px;
+  }
+
+  .sticky-nav.scrolled:hover {
+    width: 100%;
+    padding: 2px;
+    background-color: #ffffff;
+    /* Blue color on hover */
+  }
+
+
+
+}
+
+@media only screen and (min-width: 737px) {
+  .abouttwothree-block {
+    margin-top: 138px;
+    margin-bottom: 30px;
+  }
+
+  .sticky-nav.scrolled:hover {
+    width: 70%;
+    padding: 2px;
+    background-color: #ffffff;
+    /* Blue color on hover */
+  }
+
+  .sticky-nav ul {
+    margin-left: 184px;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Skapa två kolumner med lika stor bredd */
+    gap: 5px;
+  }
+
+  #contact {
+    margin-top: 260%;
+  }
+
+  .sticky-nav.scrolled {
+    flex-direction: row;
+    width: 12%;
+    font-size: 15px;
+    height: 50px;
+    padding: 2px;
+  }
+}
+
+@media only screen and (min-width: 784px) {
+  #contact {
+    margin-top: 260%;
+  }
+
+  .sticky-nav ul {
+    margin-left: 0px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+
+
+
+  #about {
+    height: 350px;
+    margin-top: 150px;
+  }
+
+  #start {
+    margin-bottom: -10px;
+  }
+
+  #ridertwo {
+    height: 400px;
+    margin-top: 10px;
+  }
+
+  .infotwo-block {
+    margin-top: -360px;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+
+
+
+  .ridertwo-block {
+    margin-top: 0px;
+  }
+
+  .abouttwothree-block {
+    margin-top: 138px;
+    margin-bottom: 30px;
+  }
+
+  .info-content {
+    grid-template-columns: 100%;
+
+
+    /* Change to a single column on mobile screens */
+  }
+
+  #contact {
+
+    margin-bottom: -10px;
+    height: 200px;
+    background-color: #D1FAFF;
+  }
+
+  #start h1 {
+    margin-top: -260px;
+  }
+
+  .riderone-content {
+    grid-template-columns: 54% 46%;
+  }
+
+  .riderone-block {
+    order: 2;
+    /* Reset the order to 2 for smaller screens */
+  }
+
+  .riderone-block {
+    order: 1;
+    /* Reset the order to 1 for smaller screens */
+  }
+
+  .abouttwothree-block {
+    order: 2;
+    /* Reset the order to 1 for smaller screens */
+  }
+
+  .aboutonethree-block {
+    order: 1;
+
+    /* Reset the order to 2 for smaller screens */
+  }
+
+  .ridertwo-content {
+    grid-template-columns: 40% 60%;
+  }
+
+  .about-content {
+    grid-template-columns: 100%;
+    margin-top: 172%;
+    margin-bottom: 300px;
+  }
+
+  .about-content-vid {
+    grid-template-columns: 53% 45%;
+    background-color: #e9eff3;
+    top: 278%;
+
+  }
+
+  .aboutone-block {
+    order: 1;
+    /* Reset the order to 2 for smaller screens */
+  }
+
+  .abouttwo-block {
+    order: 2;
+    /* Reset the order to 1 for smaller screens */
+  }
+
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+  .kaPA {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* This will zoom in on the left side */
+  }
+
+  .kaPA {
+    object-position: 52% 0px;
+  }
+
+
+  .sticky-nav.scrolled:hover {
+    width: 50%;
+    padding: 2px;
+    background-color: #ffffff;
+    /* Blue color on hover */
+  }
+
+  .ridertwo-block {
+    margin-top: 0px;
+  }
+
+  .info-content {
+    grid-template-columns: 30% 70%;
+    position: relative;
+    margin-top: -80%;
+    width: 100%;
+    margin-left: -20px;
+    margin-right: -20px;
+    overflow: hidden;
+    background-color: #9BD1E5;
+    /* Change to a single column on mobile screens */
+  }
+
+  .infoinfo-block {
+    display: block;
+  }
+
+  .infotwo-block {
+    margin-top: -22px;
+    height: auto;
+    
+  }
+
+  .aboutone-block {
+    margin: 0px;
+
+  }
+
+  .about-content {
+    background-color: #27bfa1;
+    margin-top: -290px;
+    grid-template-columns: 30% 70%;
+  }
+
+  .about-content-vid {
+
+    background-color: #e9eff3;
+    margin-top: -1500px;
+    margin-bottom: 0px;
+
+  }
+
+  #contact {
+    margin-top: 72%;
+    margin-bottom: -10px;
+    height: 200px;
+    background-color: #D1FAFF;
+  }
+
+  .profiletwo-picture {
+    width: 700%;
+    height: 290%;
+    margin-top: -222px;
+    margin-left: -1550px;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  #start h1 {
+    font-size: 110px;
+    color: #27bfa1;
+    margin-top: 0px;
+  }
+
+
+
+}
+
+
+
+@media only screen and (min-width: 1026px) {
+  #contact {
+    margin-top: 50%;
+    margin-bottom: -10px;
+    height: 200px;
+    background-color: #D1FAFF;
+  }
+
+  .abouttwothree-block {
+    margin-bottom: 103px;
+    margin-top: 100px;
+  }
+
+  .info-content {
+    grid-template-columns: 40% 60%;
+    position: relative;
+    margin-top: -102%;
+
+    /* Change to a single column on mobile screens */
+  }
+
+  .infoinfo-block {
+
+    margin-left: -20px;
+  }
+
+  .ridertwo-block {
+    margin-top: 0px;
+  }
+
+  .about-content {
+    margin-top: -69%;
+  }
+
+  .about-content-vid {
+    grid-template-columns: 70% 30%;
+    padding: 20px;
+    background-color: #e9eff3;
+    margin-top: -155%;
+    margin-bottom: -120px;
+
+
+  }
+
+  .profiletwo-picture {
+    width: 700%;
+    height: 290%;
+    margin-top: -222px;
+    margin-left: -1550px;
+    object-fit: cover;
+    object-position: top;
+  }
+
+
+
+  #start h1 {
+    font-size: 140px;
+    color: #27bfa1;
+    margin-top: -150px;
+  }
+
+
+}
+
+@media only screen and (min-width: 1172px) {
+  #contact {
+    margin-top: 55%;
+  }
+}
+
+@media only screen and (min-width: 1240px) {
+  #contact {
+    margin-top: 50%;
+    margin-bottom: -10px;
+    height: 200px;
+    background-color: #D1FAFF;
+  }
+
+  .abouttwothree-block {
+    margin-bottom: 103px;
+    margin-top: 100px;
+  }
+
+  .info-content {
+    grid-template-columns: 40% 60%;
+    position: relative;
+    margin-top: -102%;
+
+    /* Change to a single column on mobile screens */
+  }
+
+  .infoinfo-block {
+
+    margin-left: -20px;
+  }
+
+  .ridertwo-block {
+    margin-top: 0px;
+  }
+
+  .about-content {
+    margin-top: -73%;
+  }
+
+  .about-content-vid {
+    grid-template-columns: 70% 30%;
+    padding: 20px;
+    background-color: #e9eff3;
+    margin-top: -155%;
+    margin-bottom: -120px;
+
+
+  }
+
+  .profiletwo-picture {
+    width: 700%;
+    height: 290%;
+    margin-top: -222px;
+    margin-left: -1550px;
+    object-fit: cover;
+    object-position: top;
+  }
+
+
+
+  #start h1 {
+    font-size: 140px;
+    color: #27bfa1;
+    margin-top: -150px;
+  }
+
+
+}
+
+@media only screen and (min-width: 1440px) {
+
+  .infoinfo-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    overflow: hidden;
+  }
+
+  .kaPA {
+    /* Exempel på stilar för andra bilder */
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .sticky-nav.scrolled:hover {
+    width: 30%;
+  }
+
+  #contact {
+    margin-top: 26%;
+    margin-bottom: -10px;
+    height: 200px;
+    background-color: #D1FAFF;
+  }
+
+  .abouttwothree-block {
+    margin-bottom: 103px;
+    margin-top: 100px;
+  }
+
+  .info-content {
+    grid-template-columns: 40% 60%;
+top: 122%;
+    margin-top: -99%;
+
+
+    /* Change to a single column on mobile screens */
+  }
+
+
+
+  .ridertwo-block {
+    margin-top: 0px;
+  }
+
+  .about-content {
+    margin-top: -80%;
+  }
+
+  .about-content-vid {
+    grid-template-columns: 70% 30%;
+    padding: 20px;
+    background-color: #e9eff3;
+    margin-top: -155%;
+    margin-bottom: -120px;
+
+
+  }
+
+  .profiletwo-picture {
+    width: 700%;
+    height: 290%;
+    margin-top: -222px;
+    margin-left: -1550px;
+    object-fit: cover;
+    object-position: top;
+  }
+
+
+
+  #start h1 {
+    font-size: 140px;
+    color: #27bfa1;
+    margin-top: -150px;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 1690px) {
+  #contact {
+    margin-top: 26%;
+    margin-bottom: -10px;
+    height: 200px;
+    background-color: #D1FAFF;
+  }
+
+  .abouttwothree-block {
+    margin-bottom: 103px;
+    margin-top: 100px;
+  }
+
+  .info-content {
+    grid-template-columns: 40% 60%;
+    position: relative;
+    margin-top: -83%;
+
+    /* Change to a single column on mobile screens */
+  }
+
+  .infoinfo-block {
+
+    margin-left: -20px;
+  }
+
+  .ridertwo-block {
+    margin-top: 0px;
+  }
+
+  .about-content {
+    margin-top: -60%;
+  }
+
+  .about-content-vid {
+    grid-template-columns: 70% 30%;
+    padding: 20px;
+    background-color: #e9eff3;
+    margin-bottom: -35%;
+  }
+
+  .profiletwo-picture {
+    width: 700%;
+    height: 290%;
+    margin-top: -222px;
+    margin-left: -1550px;
+    object-fit: cover;
+    object-position: top;
+  }
+
+
+
+  #start h1 {
+    font-size: 140px;
+    color: #27bfa1;
+    margin-top: -150px;
+  }
+
+}
+
+@media only screen and (min-width: 1920px) {
+  #contact {
+    margin-top: 20%;
+    margin-bottom: -10px;
+    height: 200px;
+    background-color: #D1FAFF;
+  }
+
+  .info-content {
+    margin-top: -78%;
+  }
+
+  .about-content {
+    margin-top: -60%;
+    padding: 15px;
+    background-color: #27bfa1;
+  }
+
+  .aboutone-block {
+    font-size: 25px;
+  }
+
+  .about-content-vid {
+    margin-top: 225%;
+  }
+
+  .about-content-vid {
+    margin-top: -150%;
+  }
+}
+
+
+@media only screen and (min-width: 2000px) {
+  .info-content {
+    margin-top: -69%;
+  }
+
+  .about-content {
+    margin-top: -1215px;
+  }
+
+  .about-content-vid {
+    margin-top: -142%;
+  }
+}
+
+@media only screen and (min-width: 2145px) {
+  .info-content {
+    margin-top: -66%;
+  }
+
+  .about-content {
+    margin-top: -1215px;
+  }
+
+  .about-content-vid {
+    margin-top: -130%;
+  }
+}
+
+@media only screen and (min-width: 2217px) {
+  .info-content {
+    margin-top: -61%;
+  }
+
+  .about-content {
+    margin-top: -1135px;
+  }
+
+  .about-content-vid {
+    margin-top: -128%;
+  }
+}
+
+@media only screen and (min-width: 2361px) {
+  .info-content {
+    margin-top: -58%;
+  }
+
+  .about-content {
+    margin-top: -1152px;
+  }
+
+  .about-content-vid {
+    margin-top: -115%;
+  }
+}
+
+@media only screen and (min-width: 2426px) {
+  .info-content {
+    margin-top: -55%;
+  }
+
+  .about-content {
+    margin-top: -1060px;
+  }
+
+  .about-content-vid {
+    margin-top: -117%;
+  }
+}
+
+
+
+@media only screen and (min-width: 2500px) {
+  .info-content {
+    margin-top: -52%;
+  }
+
+  .about-content {
+    margin-top: -1100px;
+
+  }
+
+
+}
+
+@media only screen and (min-width: 2560px) {
+  #contact {
+    margin-top: 20%;
+    margin-bottom: -10px;
+    height: 200px;
+    background-color: #D1FAFF;
+  }
+
+
+  .info-content {
+    margin-top: -46%;
+  }
+
+  .about-content {
+    margin-top: -33%;
+    padding: 15px;
+    background-color: #27bfa1;
+  }
+
+  .aboutone-block {
+    font-size: 25px;
+  }
+
+  .infotwo-block {
+    margin-top: -244px;
+  }
+
+
+  .about-content-vid {
+    margin-top: -107%;
+  }
+}

@@ -1,0 +1,50 @@
+.social-media-container {
+  display: flex;
+  gap: 70px;
+  /* Lägg till önskat mellanrum mellan ikonerna */
+}
+
+.social-icon {
+  font-size: 120px;
+  margin-bottom: 20px;
+
+
+  color: #17A398;
+
+
+  border-radius: 30px;
+}
+
+
+@media only screen and (min-width: 300px) {
+  .social-icon {
+    font-size: 50px;
+  }
+
+  .social-media-container {
+    gap: 20px;
+    /* Lägg till önskat mellanrum mellan ikonerna */
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .social-icon {
+    font-size: 150px;
+  }
+
+  .social-media-container {
+    gap: 50px;
+
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .social-icon {
+    font-size: 150px;
+  }
+
+  .social-media-container {
+    gap: 140px;
+    /* Lägg till önskat mellanrum mellan ikonerna */
+  }
+}

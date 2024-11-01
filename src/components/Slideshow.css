@@ -1,0 +1,122 @@
+.mountain-roler {
+  width: 85%;
+  margin-bottom: 50px;
+  padding: 2%;
+  border-radius: 12px;
+  background-color: #9BD1E5;
+  position: relative;
+  margin-left: 10%;
+  height: 410px;
+  overflow: hidden;
+}
+
+.mountain {
+  padding-bottom: 20px;
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 10px;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.6s ease;
+  border: none;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(0, 0, 0, 0.22);
+  margin-left: -20px;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: #f1f1f1;
+  color: black;
+
+}
+
+.fade {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 300px) {
+  .mountain-roler {
+    height: auto;
+  }
+
+
+  .prev,
+  .next {
+    font-size: 2%;
+  }
+
+}
+
+@media (min-width: 375px) {
+
+  .prev,
+  .next {
+    font-size: 5%;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+
+  .prev,
+  .next {
+    font-size: 8%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  .prev,
+  .next {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .prev,
+  .next {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+
+  .prev,
+  .next {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .mountain-roler {
+    width: 75%;
+  }
+}
